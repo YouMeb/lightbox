@@ -24,7 +24,7 @@ $ component install YouMeb/lightbox
 
 ## Animation Example
 
-> scale form 0 to 1
+`scale` form 0 to 1
 
 ```css
 .lightbox {
