@@ -1,0 +1,25 @@
+<html>
+<head>
+  <link rel="stylesheet" href="build/build.css"></link>
+</head>
+<body>
+  <button id="button">click</button>
+  <script src="build/build.js"></script>
+  <script>
+    var button = document.querySelector('#button');
+    var LightBox = require('lightbox');
+    var lightbox = new LightBox();
+
+    document.body.appendChild(lightbox.el);
+
+    lightbox.content.innerHTML = ''
+      + '<h3 class="lightbox-title">title</h3>'
+      + '<p>content content content content content content content content content content content content content </p>';
+
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      lightbox.open();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "lightbox",
+  "description": "basic lightbox view",
+  "version": "0.0.0",
+  "dependencies": {
+    "poying/transition-duration": "*"
+  },
+  "development": {},
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js"
+  ],
+  "styles": [
+    "lib/style.css"
+  ],
+  "templates": [
+    "lib/template.html"
+  ],
+  "license": "MIT"
+}
